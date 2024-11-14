@@ -1,0 +1,128 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header and Navigation */
+  header {
+    background-color: #4CAF50;
+    padding: 1rem 2rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  header ul li button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  header ul li button:hover {
+    background-color: #e7f5e7;
+  }
+  
+  /* Main Section */
+  main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Add Question Section */
+  .add-question-section {
+    margin-bottom: 2rem;
+  }
+  
+  .add-question-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .add-question-section input, .add-question-section button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-question-section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-question-section button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Question List Section */
+  .question-list-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  #questionList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .question-item a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .question-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .question-item .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+  }
+  
+  .question-item .delete-button:hover {
+    background-color: #c0392b;
+  }
+  

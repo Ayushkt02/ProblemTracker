@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Problem Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <h1>Problem Tracker</h1>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="add-question-section">
+      <h2>Add a New Problem</h2>
+      <input type="text" id="questionInput" placeholder="Enter problem description" required>
+      <input type="text" id="questionLinkInput" placeholder="Enter problem link" required>
+      <button onclick="addQuestion()">Add Problem</button>
+    </section>
+
+    <section class="question-list-section">
+      <h2>Problem List</h2>
+      <ul id="questionList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
